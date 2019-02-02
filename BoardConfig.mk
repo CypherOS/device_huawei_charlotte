@@ -20,3 +20,6 @@ DEVICE_PATH := device/huawei/charlotte
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := charlotte,kirin970
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/manifest.xml
