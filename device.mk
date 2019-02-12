@@ -30,5 +30,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Display
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x04000000U
 
+# Media
+# Codecs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_codecs.xml:vendor/etc/media_codecs.xml
+
 # Inherit from kirin970-common
 $(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
