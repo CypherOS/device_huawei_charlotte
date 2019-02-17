@@ -37,5 +37,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker
 
+# Power
+TARGET_HAS_NO_WLAN_STATS := true
+
 # Inherit from kirin970-common
 $(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
