@@ -1,0 +1,1 @@
+allow rild mnt_modem_file:dir search;
